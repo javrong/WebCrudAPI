@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: rss-site
+    labels:
+        app: webapi
+spec:
+    containers:
+        - name: crudapi-1
+          image: nginx
+          ports:
+            - containerPort: 80
+        - name: crudapi-2
+          image: apache2
+            - containerPort: 8080
