@@ -16,3 +16,25 @@ npm install corn
 ### Containerize
 - Docker
 - Kubernetes
+
+## Using program 
+In root folder and open terminal then type command:
+```sh
+npm install
+```
+that's prefer for install all module package using in app.
+Then run app with command:
+```sh
+nodemon
+```
+After that, we'll make container app using docker.
+```sh
+docker build -f Dockerfile
+```
+Then check the image created with.
+```sh
+docker image
+```
+If any image name/id that's our app success creating container images.
+### SejutaCita.id discussion.
+Sorry i can't create an API documentation with Postman, beacause the app it's contains error while run a program.
