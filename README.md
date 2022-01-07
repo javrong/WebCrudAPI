@@ -36,5 +36,5 @@ Then check the image created with.
 docker image
 ```
 If any image name/id that's our app success creating container images.
-### SejutaCita.id discussion.
+### Discussion.
 Sorry i can't create an API documentation with Postman, beacause the app it's contains error while run a program.
